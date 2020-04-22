@@ -1,0 +1,142 @@
+body {
+  background-color: black;
+}
+
+.removeButton {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+
+.mainScreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.friendList {
+  margin-left: 20px;
+  margin-top: 20px;
+  position: absolute;
+  width: 235px;
+  color: white;
+  background-color: rgb(32, 32, 32);
+}
+
+.friendList:empty {
+  display: none;
+}
+
+.barList {
+  margin-top: 20px;
+  left: 23.75%;
+  right: 23.75%;
+  position: absolute;
+  width: 1008px;
+  color: white;
+}
+
+.barList:empty {
+  display: none;
+}
+
+.beerList {
+  margin-top: 20px;
+  left: 23.75%;
+  right: 23.75%;
+  position: absolute;
+  width: 52.5%;
+  color: white;
+}
+
+.beerList:empty {
+  display: none;
+}
+
+.headerStyle {
+  color: rgb(0, 0, 0);
+}
+
+.friendsHeader {
+  position: sticky;
+  color: orange;
+  margin-top: 10px;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.mainHeader2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  color: rgb(204, 92, 0);
+}
+
+.mainHeader1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 260px;
+  color: rgb(204, 92, 0);
+}
+
+.button {
+  align-items: center;
+}
+
+.background {
+  background-color: grey;
+}
+
+.navBar {
+  height: 60px;
+  background-color: rgb(32, 32, 32);
+  overflow: hidden;
+  border-bottom: 2px solid rgb(204, 92, 0);
+}
+
+.navBar a {
+  position: sticky;
+  float: left;
+  display: block;
+  color: rgb(204, 92, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.navBar a:hover {
+  border-bottom: 3px solid rgb(204, 92, 0);
+}
+
+.navBar a:active {
+  border-bottom: 3px solid rgb(204, 92, 0);
+}
+
+.logOutButton {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  color: orange;
+  background-color: #ffffff;
+  border-color: orange;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.logOutButton:hover,
+.logOutButton:active,
+.logOutButton:focus,
+.logOutButton:active {
+  background: orange;
+  color: #ffffff;
+  border-color: orange;
+}
+
+.navBarTitle {
+  font-weight: bold;
+  color: rgb(204, 92, 0);
+  letter-spacing: 0.05em;
+}

@@ -1,0 +1,51 @@
+.newProfileFormModalHeader {
+  color: rgb(204, 92, 0);
+  background-color: rgb(32, 32, 32);
+  border-color: rgb(204, 92, 0);
+}
+
+.newProfileFormModalBody {
+  color: orange;
+  background-color: rgb(32, 32, 32);
+}
+
+.newProfileFormModalFooter {
+  background-color: rgb(32, 32, 32);
+  border-color: rgb(204, 92, 0);
+}
+
+.newProfileFormOkButton {
+  right: 5px;
+  top: 5px;
+  color: white;
+  background-color: rgb(204, 92, 0);
+  border-color: rgb(204, 92, 0);
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.newProfileFormOkButton:hover,
+.newProfileFormOkButton:focus,
+.newProfileFormOkButton:active {
+  background: orange;
+  color: #ffffff;
+  border-color: orange;
+}
+
+.newProfileFormTextArea {
+  background-color: rgb(32, 32, 32);
+  border-color: orange;
+  color: orange;
+}
+
+.newProfileFormTextArea:hover,
+.newProfileFormTextArea:focus,
+.newProfileFormTextArea:active {
+  background-color: rgb(32, 32, 32);
+  color: orange;
+  border-color: orange;
+}
+
+.newProfileFormInputError {
+  color: red;
+}
